@@ -1,0 +1,61 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1599845916681'); /* IE9 */
+  src: url('iconfont.eot?t=1599845916681#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'),
+  url('iconfont.woff?t=1599845916681') format('woff'),
+  url('iconfont.ttf?t=1599845916681') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1599845916681#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cpu:before {
+  content: "\e629";
+}
+
+.icon-memory:before {
+  content: "\f04b";
+}
+
+.icon-localnetwork:before {
+  content: "\ebdf";
+}
+
+.icon-host:before {
+  content: "\e61e";
+}
+
+.icon-heat:before {
+  content: "\e659";
+}
+
+.icon-out:before {
+  content: "\e602";
+}
+
+.icon-in:before {
+  content: "\e603";
+}
+
+.icon-up:before {
+  content: "\e607";
+}
+
+.icon-down:before {
+  content: "\e628";
+}
+
+.icon-wired:before {
+  content: "\e62c";
+}
+
+.icon-wifi:before {
+  content: "\e736";
+}
+

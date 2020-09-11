@@ -11,7 +11,7 @@
     <link href="assets/board.css" rel="stylesheet">
     <script src="assets/jquery-3.1.1.min.js"></script>
     <script src="assets/bootstrap.min.js"></script>
-    <script src="//at.alicdn.com/t/font_2016008_9cgdme6f48u.js"></script>
+    <script src="assets/font/iconfont.js"></script>
 </head>
 <body>
 <nav class="container nav-bar side-padding">

@@ -1,0 +1,86 @@
+{
+  "id": "2016008",
+  "name": "PI",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "Pi Board",
+  "glyphs": [
+    {
+      "icon_id": "5221721",
+      "name": "CPU",
+      "font_class": "cpu",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "5634228",
+      "name": "memory",
+      "font_class": "memory",
+      "unicode": "f04b",
+      "unicode_decimal": 61515
+    },
+    {
+      "icon_id": "12193537",
+      "name": "local network",
+      "font_class": "localnetwork",
+      "unicode": "ebdf",
+      "unicode_decimal": 60383
+    },
+    {
+      "icon_id": "16800981",
+      "name": "主机",
+      "font_class": "host",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "13409779",
+      "name": "温度",
+      "font_class": "heat",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "13901633",
+      "name": "total_outflow",
+      "font_class": "out",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "13901634",
+      "name": "total_inflow",
+      "font_class": "in",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "13995786",
+      "name": "上行",
+      "font_class": "up",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "14000212",
+      "name": "下行",
+      "font_class": "down",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "3788599",
+      "name": "ic_fa_wired_network",
+      "font_class": "wired",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "12986300",
+      "name": "net",
+      "font_class": "wifi",
+      "unicode": "e736",
+      "unicode_decimal": 59190
+    }
+  ]
+}
