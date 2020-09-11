@@ -1,0 +1,305 @@
+/*!
+ * Copyright 2020 https://migchar.com
+ * Designed and built based on Twitter Bootstrap.
+ */
+
+/* Reset */
+body {
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h3, h4, h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 46px;
+    color: #b2c831
+}
+
+h5 {
+    color: #b2c831;
+    margin-left: 5px;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none
+}
+
+.font-small {
+    font-size: .8rem;
+    font-weight: bolder;
+}
+
+.footer-copyright a {
+    color: #4e555b;
+}
+
+.main-board {
+    min-width: 414px;
+}
+
+.navbar-brand .logo {
+    height: 3rem;
+    padding-right: 1rem;
+}
+
+/* site topbar */
+
+.side-padding {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.nav-bar {
+    max-width: 50rem;
+    width: 100%;
+    padding: .4em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-header {
+    margin: 0 auto;
+    padding-top: .5rem;
+}
+
+.nav-header img{
+    height: 2rem;
+    padding-right: .5rem;
+    vertical-align: -0.2em;
+}
+
+.nav-text {
+    text-decoration: none;
+    font-size: 1.5rem
+}
+
+.hamburger-menu {
+    display: block;
+    position: relative;
+    -webkit-user-select: none;
+    user-select: none
+}
+
+.hamburger-menu button {
+    display: block;
+    position: relative;
+    width: 33px;
+    height: 33px;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    z-index: 500;
+    -webkit-touch-callout: none;
+    cursor: pointer
+}
+
+.hamburger-menu button span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    position: relative;
+    background-color: #141823;
+    border-radius: 3px;
+    transform-origin: center;
+    transition: transform .3s cubic-bezier(0.77, 0.2, 0.05, 1.0), background-color .3s cubic-bezier(0.77, 0.2, 0.05, 1.0)
+}
+
+.hamburger-menu button span:first-of-type {
+    margin-bottom: 5px
+}
+
+.hamburger-menu-open button span {
+    background-color: #fff;
+    transform: rotate(45deg) translate(3.2px, 3.2px)
+}
+
+.hamburger-menu-open button span:last-of-type {
+    transform: rotate(-45deg) translate(3.2px, -3.2px)
+}
+
+.hamburger-menu-overlay {
+    display: block;
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    z-index: 100;
+    text-align: center;
+    visibility: hidden;
+    overflow-y: auto;
+    margin: 0;
+    padding: 3.5em 0 0;
+    background-color: #000;
+    opacity: 0;
+    transition: visibility .2s ease-out, opacity .2s ease-out;
+}
+
+.hamburger-menu-open .hamburger-menu-overlay {
+    visibility: visible;
+    opacity: .9
+}
+
+.hamburger-menu-overlay-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    line-height: 1.7;
+    color: #fff
+}
+
+/* button */
+.btn.btn-flat {
+    font-weight: 500;
+    color: inherit;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.btn.btn-flat:not([disabled]):not(.disabled):active {
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.btn-floating {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    width: 47px;
+    height: 47px
+}
+
+.btn-floating i {
+    font-size: 1.25rem;
+    line-height: 47px
+}
+
+.btn-floating i {
+    display: inline-block;
+    width: inherit;
+    color: #fff;
+    text-align: center
+}
+
+.btn-floating:hover {
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.btn-floating:before {
+    border-radius: 0
+}
+
+.card .btn-action {
+    margin-top: -1.44rem;
+    margin-bottom: -1.44rem;
+}
+
+
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+#map-container-google-1 {
+
+}
+
+#map-container-google-1 {
+
+
+}
+
+/*Card*/
+.deep-purple-text {
+    color: #673ab7 !important;
+}
+
+.red-text {
+    color: #f44336 !important;
+}
+
+.card.weather-card .collapse-content a.collapsed:after {
+    content: "Expand";
+}
+
+.card.weather-card .collapse-content a:not(.collapsed):after {
+    content: "Collapse";
+}
+
+.weather-card,
+.map-card {
+    min-height: 340px;
+}
+
+.host-card {
+    background-color: #fdbc64;
+}
+
+.card.map-card .button .btn-floating {
+    margin-top: -2rem;
+    z-index: 1;
+}
+
+.card.map-card .card-body {
+    position: absolute;
+    top: 23%;
+    width: 100%;
+    height: 77%;
+    overflow: hidden;
+    background-color: transparent;
+    border-radius: 0 !important;
+    -webkit-transition: all 1s;
+    transition: all 1s
+}
+
+.card.map-card .card-body.closed {
+    top: 100%;
+    height: 12rem;
+    margin-top: -12rem
+}
+
+.card.map-card .map-container {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden
+}
