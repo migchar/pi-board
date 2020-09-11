@@ -19,6 +19,10 @@ Project site: https://migchar.com/pi-board
 
 ## View screenshot
 
+**Screenshot1:**
+
 ![screenshot1](https://github.com/migchar/pi-board/blob/master/screenshot1.png)
+
+**Screenshot2:**
 
 ![screenshot2](https://github.com/migchar/pi-board/blob/master/screenshot2.png)
